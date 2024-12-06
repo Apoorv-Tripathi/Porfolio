@@ -1,0 +1,459 @@
+body{
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+}
+
+.page1{
+    width: 100%;
+    background-color:rgb(0, 0, 0,0.5);
+    height: 85vh;
+    background-image: url(WhatsApp\ Image\ 2024-11-20\ at\ 01.36.50.jpeg);
+    background-size: cover;
+    
+}
+.navbar{
+    height:5rem;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar-right{
+    margin-left: 25rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+}
+
+.navbar-left{
+    padding: 1rem;
+    margin-top: 0.5rem;
+    color: white;
+    font-weight: 900;
+
+}
+.navbar-left>span{
+    height: 10px;
+    width: 20px;
+    border: 5px solid #00a78e;
+    padding: 0.25rem;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.intro{
+    width: 75%;
+    height: 68%;
+    background-color: rgb(0, 0, 0,0.7);
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 2rem;
+    
+}
+
+.intro-left{
+    width: 50%;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+
+.intro-left>h2{
+    color: #00a78e;
+}
+
+.intro-right{
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    background-image: url(WhatsApp\ Image\ 2024-11-20\ at\ 01.32.13.jpeg);
+    background-size: cover;
+}
+
+.page2{
+    width: 100%;
+    height: 70vh;
+    background-color: #00a78e;
+    display: flex;
+}
+
+.page2-left{
+    width: 50%;
+    background-image: url(WhatsApp\ Image\ 2024-11-20\ at\ 01.32.13.jpeg);
+    background-size: cover;
+}
+
+.page2-right{
+    width: 50%;
+    background-color: white;
+    text-align:left;
+    /* font-size: 1.25rem; */
+}
+
+.page2-right-txt>h3{
+    color:#666666;
+    /* line-height: 2rem; */
+    font-weight: 100;
+    word-spacing: 5px;
+}
+
+.page2-right-txt>h2{
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+.h2bold{
+    font-weight: 900;
+}
+.page2-right-txt{
+    height: 75%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.into-btn{
+
+    border-radius: 2rem;
+    background-color: white;
+    border: solid 2px #00a78e;
+    color: #00a78e;
+    padding: 0.6rem;
+    width: 10rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+.page3{
+    width: 100%;
+    height: 70vh;
+    background-color: #1b242f;
+}
+
+.page3-intro{
+    height: 30%;
+    width: 100%;
+
+}
+
+.page3-main{
+    height: 70%;
+    width: 100%;
+}
+
+.page3-intro-txt{
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.page3-intro-txt>h3{
+    font-weight: 100;
+    color: white;
+}
+
+.page3g{
+    font-weight: 900;
+    font-size:1.5rem;
+}
+
+.line{
+    height: 4px;
+    width: 12rem;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+/* .page3-intro-txt>span{
+    height: 6px;
+    width: 4rem;
+    margin: auto;
+    background-color: black;
+} */
+.container-line1{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.container-line2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.element1{
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+.element2{
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+
+.element3{
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+
+.element4{
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+.page4{
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.page4-intro-txt{
+    height: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    color: #1b242f;
+
+}
+
+.page4-intro-txt>h3{
+    font-weight: 100;
+    color: white;
+    color: #1b242f;
+}
+
+.page4g{
+    font-weight: 900;
+    font-size:1.5rem;
+}
+
+.page4-content{
+    height: 80%;
+    width: 100%;
+}
+.page4-ele{
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.box{
+    width: 50%;
+}
+
+.text{
+    width: 50%;
+}
+
+.box>.element{
+    height: 3rem;
+    width: 12rem;
+    background-color:#1b242f;
+    margin: auto;
+    justify-content: center;
+    margin-top:4rem;
+    color: white;
+    padding: auto;
+    text-align: center;
+    font-size: larger;
+    box-shadow:0 1px 6px rgba(0, 0, 0, 0.3);
+}
+.page4-ele>.text{
+    height: 10rem;
+    width: 35rem;
+    box-shadow:0 1px 6px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    border: 1px solid lightslategrey;
+    border-bottom: 7px solid #00a78e ;
+}
+
+.page4-intro-txt>.line{
+    height: 4px;
+    width: 12rem;
+    background-color:black;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(0, 0, 0,0.5);
+    background-image: url(contactimg.jpg);
+    background-size: cover;
+}
+
+.page5-intro-txt{
+    height: 20%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    color: #1b242f;
+
+}
+
+.page5-intro-txt>h3{
+    font-weight: 100;
+    color: white;
+    color: #1b242f;
+}
+
+.page5g{
+    font-weight: 900;
+    font-size:1.5rem;
+} 
+
+.page5-intro-txt>.line{
+    background-color: #1b242f;
+    height: 4px;
+    width: 12rem;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.page5-container{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    margin: auto;
+
+}
+.page5-part1{
+    height: 90%;
+    width: 45%;
+    background-color: white;
+    margin: auto;
+    margin-left: 5rem;
+
+}
+
+.part1-txt{
+    height:33%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.page5-part2{
+    height: 90%;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.part2-txt{
+    height: 3rem;
+    width: 90%;
+    border: #00a78e solid 2px;
+    margin-top: 1.5rem;
+}
+#message{
+    height:6rem;
+    width: 90%;
+    border: #00a78e solid 2px ;
+}
+
+.page5-part2>button{
+    height: 2rem;
+    width: 4rem;
+    border: solid 2px #00a78e;
+    margin-left: -22.95rem;
+    margin-top: 0.6rem;
+    background-color: white;
+}
+
+.part1-txt>p{
+    font-weight: lighter;
+    font-size: medium;
+    color: grey;
+}
+
+.part1-txt>h4{
+    font-weight: lighter;
+    
+}
+
+.part1-txt>i{
+    color: #00a78e;
+    font-size: 1.75rem;
+}
+
+.part1-span{
+    color: #00a78e;
+}
+
+.inr-text{
+    color: gray;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.page5-endtxt{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+}
+.page5-icons{
+    margin: auto;
+    font-size: 2rem;
+}
+.page5-icons>i{
+    padding-left: 2rem;
+    color: #00a78e;
+}
+.page5-icons>i:hover{
+    color: #1b242f;
+    font-size: 2.5rem;
+    transition: 0.5s;
+}
+
+.inr-text:hover{
+    transition: 0.5s;
+    transform-origin: left;
+    color: #1b242f;
+}
+
+.box>.element:hover{
+    color: #1b242f;
+    background-color: grey;
+    transition: 0.5s;
+}
+
+.element1>.icon{
+    font-size: 2rem;
+}
+
+.element2>.icon{
+    font-size: 2rem;
+}
+
+.element3>.icon{
+    font-size: 2rem;
+}
+
+.element4>.icon{
+    font-size: 2rem;
+}
+
